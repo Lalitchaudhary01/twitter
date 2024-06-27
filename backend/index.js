@@ -21,7 +21,7 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-  origin: "",
+  origin: "https://twitter-frontedn.vercel.app/",
   methods: ["POST", "GET"],
   credentials: true,
 };

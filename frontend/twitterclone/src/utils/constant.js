@@ -1,5 +1,7 @@
-export const USER_API_END_POINT = "https://twitter-lalit.vercel.app/user";
-export const TWEET_API_END_POINT = "https://twitter-lalit.vercel.app/tweet";
+export const USER_API_END_POINT =
+  "https://twitter-lalit.vercel.app/api/v1/user";
+export const TWEET_API_END_POINT =
+  "https://twitter-lalit.vercel.app/api/v1/tweet";
 
 export const timeSince = (timestamp) => {
   let time = Date.parse(timestamp);
